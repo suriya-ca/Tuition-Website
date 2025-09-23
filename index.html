@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thinking Fast & Slow Tuition</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+  nav a.active { color: #4f46e5; font-weight: 600; }
+</style>
+</head>
+<body class="bg-gradient-to-br from-indigo-50 via-white to-purple-50 text-gray-900">
+
+<!-- NAV -->
+<header class="bg-white/80 backdrop-blur shadow-sm sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-600 to-purple-500 flex items-center justify-center text-white font-bold shadow-md">TF</div>
+      <div>
+        <h1 class="text-lg font-semibold">Thinking Fast & Slow Tuition</h1>
+        <p class="text-sm text-gray-500">Practical · Exam-focused · CBSE-aligned</p>
+      </div>
+    </div>
+    <nav id="navbar" class="hidden md:flex gap-6 items-center text-sm font-medium">
+      <a href="#courses">Course</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#teachers">Teachers</a>
+      <a href="#contact">Enroll</a>
+      <a href="dashboard.html" class="text-white bg-indigo-600 px-4 py-2 rounded-full shadow hover:bg-indigo-700 transition">Dashboard</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+  <div>
+    <h2 class="text-5xl font-extrabold leading-tight bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+      Master Class 12 Accountancy with Confidence
+    </h2>
+    <p class="mt-6 text-lg text-gray-700 leading-relaxed">
+      Practical concepts, solved board-style questions, weekly mock tests and one-to-one doubt sessions. Dedicated monthly classes for Class 12 students.
+    </p>
+    <div class="mt-8 flex gap-4">
+      <a href="#courses" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-full shadow transition">View course</a>
+      <a href="#contact" class="border border-indigo-600 hover:bg-indigo-50 text-indigo-600 px-6 py-3 rounded-full transition">Book trial</a>
+    </div>
+  </div>
+  <div class="flex justify-center">
+    <img src="https://images.unsplash.com/photo-1553882800-9a0f77a9a1f9?q=80&w=900&auto=format&fit=crop" alt="tuition" class="w-full max-w-md rounded-3xl shadow-xl border border-gray-200 hover:scale-105 transition-transform duration-300" />
+  </div>
+</section>
+
+<!-- COURSE -->
+<section id="courses" class="bg-white py-16">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold text-indigo-700">Course Offered</h3>
+    <p class="text-gray-600 mt-3">Structured batches, flexible timings, and focused revision plans.</p>
+    <div class="mt-10 max-w-lg mx-auto p-8 rounded-2xl border bg-gradient-to-br from-white to-indigo-50 shadow-md hover:scale-105 transition-transform duration-300">
+      <h4 class="text-2xl font-bold text-indigo-700">Class 12 Accountancy</h4>
+      <p class="text-sm text-gray-500 mt-1">Duration: Ongoing</p>
+      <p class="mt-4 font-semibold text-lg text-indigo-600">Monthly: ₹2,000</p>
+      <ul class="mt-6 space-y-3 text-left text-sm">
+        <li>✅ Board & practical focus</li>
+        <li>✅ Exam-oriented notes</li>
+        <li>✅ Past year questions</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SCHEDULE -->
+<section id="schedule" class="max-w-6xl mx-auto px-6 py-16 text-center">
+  <h3 class="text-3xl font-bold text-indigo-700">Batch Schedule</h3>
+  <p class="text-gray-600 mt-3">Only one active batch — limited seats available.</p>
+  <div class="mt-8 p-8 bg-white rounded-2xl shadow-md max-w-md mx-auto hover:scale-105 transition-transform duration-300">
+    <h4 class="font-semibold text-lg">Class 12 Regular Batch</h4>
+    <p class="text-sm text-gray-500">Mon–Fri · 6:00 PM — 7:30 PM</p>
+    <p class="mt-2">Seats left: <span class="font-bold text-indigo-600">10</span></p>
+  </div>
+</section>
+
+<!-- TEACHERS -->
+<section id="teachers" class="bg-gradient-to-r from-indigo-50 to-purple-50 py-16">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold text-indigo-700">Our Teachers</h3>
+    <p class="text-gray-600 mt-3">Experienced mentors guiding your success.</p>
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition-shadow">
+        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Suriya" class="w-24 h-24 mx-auto rounded-full mb-4 shadow-lg" />
+        <h4 class="text-xl font-semibold text-indigo-700">Suriya</h4>
+        <p class="text-sm text-gray-600 mt-1">Founder · Specialist in Board Exam strategy</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition-shadow">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Neshikashree" class="w-24 h-24 mx-auto rounded-full mb-4 shadow-lg" />
+        <h4 class="text-xl font-semibold text-indigo-700">Neshikashree</h4>
+        <p class="text-sm text-gray-600 mt-1">Expert in Conceptual Clarity & Doubt Solving</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition-shadow">
+        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Jayanthi" class="w-24 h-24 mx-auto rounded-full mb-4 shadow-lg" />
+        <h4 class="text-xl font-semibold text-indigo-700">Jayanthi</h4>
+        <p class="text-sm text-gray-600 mt-1">Guides practical applications & past papers</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="max-w-6xl mx-auto px-6 py-16">
+  <h3 class="text-3xl font-bold text-indigo-700 text-center">Ready to start? Book a free trial</h3>
+  <form class="mt-8 space-y-5 bg-white p-8 rounded-2xl shadow-md max-w-lg mx-auto hover:shadow-xl transition-shadow">
+    <input placeholder="Full name" class="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500 outline-none" />
+    <input placeholder="Phone / WhatsApp" class="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500 outline-none" />
+    <input placeholder="Email address" class="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500 outline-none" />
+    <select class="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500 outline-none">
+      <option>Class 12 Accountancy</option>
+    </select>
+    <label class="flex items-center gap-2 text-sm text-gray-600">
+      <input type="checkbox" /> I agree to be contacted for enrollment details.
+    </label>
+    <button class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full px-6 py-3 shadow hover:from-indigo-700 hover:to-purple-700 transition">Request trial</button>
+    <p class="text-xs text-gray-500 mt-2 text-center">Prefer direct contact? WhatsApp: <strong>+91 98765 43210</strong></p>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-white py-10">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+    <p>© 2025 Thinking Fast & Slow Tuition — All rights reserved.</p>
+    <div class="flex gap-6">
+      <a href="#" class="text-gray-400 hover:text-white text-sm">Privacy</a>
+      <a href="#" class="text-gray-400 hover:text-white text-sm">Terms</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Highlight nav link while scrolling
+  const sections = document.querySelectorAll('section');
+  const navLinks = document.querySelectorAll('nav a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 100;
+      if(pageYOffset >= sectionTop) current = section.getAttribute('id');
+    });
+    navLinks.forEach(link => link.classList.remove('active'));
+    if(current) {
+      const activeLink = document.querySelector(`nav a[href="#${current}"]`);
+      if(activeLink) activeLink.classList.add('active');
+    }
+  });
+</script>
+
+</body>
+</html>
